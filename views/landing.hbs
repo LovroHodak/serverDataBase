@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css' >
+    </head>
+
+    <body>
+        <h1 class='title'>LANDING.hbs is this page</h1>
+        <div>
+            {{#each stuff}}
+                {{> info this}}
+            {{/each}}
+        </div>
+    </body>
+</html>

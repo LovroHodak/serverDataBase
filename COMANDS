@@ -17,4 +17,10 @@ npm i
 npm i express
 npm i mongoose
 
+node bin/seedBuy.js
+
+npm i hbs
+npm i body-parser
+npm i dotenv
+
 
