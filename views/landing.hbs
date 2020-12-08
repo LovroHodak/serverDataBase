@@ -6,10 +6,29 @@
 
     <body>
         <h1 class='title'>LANDING.hbs is this page</h1>
-        <div>
+        <h2>Current products</h2>
+        <div class="cont">
             {{#each stuff}}
                 {{> info this}}
             {{/each}}
         </div>
+        <br>
+        <br>
+        <h1>ADD PRODUCTS</h1>
+        <form method="POST" action="/" class="cont">
+            <div>
+                <label for="buyName">Name</label>
+                <input name="name" type="text" id="buyName" placeholder="name of product">
+            </div>
+            <div>
+                <label for="buyAmount">Amount</label>
+                <input name="amount" type="number" id="buyAmount" placeholder="how many products">
+            </div>
+            <div>
+                <label for="buyCategory">Category</label>
+                <input name="category" type="text" id="buyCategory" placeholder="which category">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 </html>

@@ -17,7 +17,6 @@ app.use('/', buyRoutes)
 
 // SET
 app.set('view engine', 'hbs')
-
 app.set('views', __dirname + '/views')
 
 // LISTEN
