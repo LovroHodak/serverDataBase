@@ -1,0 +1,15 @@
+<form method="POST" action="/stuff/{{editItem._id}}/edit" class="cont">
+    <div>
+        <label for="buyName">Name</label>
+        <input value={{editItem.name}} name="name" type="text" id="buyName">
+    </div>
+    <div>
+        <label for="buyAmount">Amount</label>
+        <input value={{editItem.amount}} name="amount" type="number" id="buyAmount">
+    </div>
+    <div>
+        <label for="buyCategory">Category</label>
+        <input value={{editItem.category}} name="category" type="text" id="buyCategory">
+    </div>
+    <button type="submit">Edit</button>
+</form>

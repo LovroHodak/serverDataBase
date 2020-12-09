@@ -22,5 +22,7 @@ node bin/seedBuy.js
 npm i hbs
 npm i body-parser
 npm i dotenv
+npm i morgan
+
 
 

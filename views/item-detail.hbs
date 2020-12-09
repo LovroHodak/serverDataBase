@@ -1,0 +1,9 @@
+<div>Name: {{item.name}} </div>
+<div>Amount: {{ item.amount }} </div>
+<div>Category: {{ item.category }} </div>
+
+<a href="/stuff/{{ item._id }}/edit">
+<button type="submit" class="btn btn-primary">Edit</button>
+</a>
+
+<a href="/stuff/{{ item._id }}/delete"><button type="submit">Delete</button></a>
